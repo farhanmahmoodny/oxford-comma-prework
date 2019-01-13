@@ -10,7 +10,7 @@ def oxford_comma(array)
     # array.join("")
     count = 0
     new_array = []
-    until count == 1
+    until count == array.length
     new_array.push(array.shift + ",")
     count += 1
   end
