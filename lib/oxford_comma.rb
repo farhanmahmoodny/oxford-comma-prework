@@ -8,5 +8,13 @@ def oxford_comma(array)
   array[1] = array[1] + ","
   array.insert(-2, "and")
   array.join(" ")
+  else
+    count = 0
+    until count == array.length-2
+    array[count] = array[count] + ","
+    count += 1
+  end
+  array.insert(-2, "and")
+  array.join(" ")
   end
 end
