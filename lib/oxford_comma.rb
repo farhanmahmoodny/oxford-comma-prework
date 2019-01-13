@@ -1,9 +1,5 @@
 def oxford_comma(array)
-  array.to_s
-  array.join(" and ")
-  new_array = []
-  until array.length == 0
-  new_array.push(array.pop)
+  puts array.to_s
+  puts array.join(" and ")
 end
-new_array.insert(-2, "and")
 end
